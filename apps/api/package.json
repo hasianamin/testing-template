@@ -17,6 +17,9 @@
     "mysql2": "^3.6.5",
     "sequelize": "^6.35.1"
   },
+  "optionalDependencies": {
+    "husky": "^4.3.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
     "@babel/core": "^7.23.3",
