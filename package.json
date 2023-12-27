@@ -19,6 +19,9 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
+  "optionalDependencies": {
+    "husky": "^4.3.4"
+  },
   "name": "final-project-template-turbo-vite",
   "packageManager": "npm@8.15.0",
   "workspaces": [
