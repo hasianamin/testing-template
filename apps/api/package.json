@@ -8,7 +8,8 @@
     "lint": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
     "test": "jest --forceExit --detectOpenHandles",
     "serve": "cross-env NODE_ENV=production node dist/index.js",
-    "sequelize": "npx sequelize-cli"
+    "sequelize": "npx sequelize-cli",
+    "prepare": "husky install"
   },
   "dependencies": {
     "cors": "^2.8.5",
